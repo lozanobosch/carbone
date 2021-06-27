@@ -1,5 +1,5 @@
 cURL:
---user $userpass
---upload-file $file 
+--user $$userpass
+--upload-file $$file 
 --header "Content-type: image/png"
 ----
